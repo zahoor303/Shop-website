@@ -1,5 +1,5 @@
 import React from 'react';
-import { Star, Search, ShoppingBag, X, Import, Contact2Icon, ShoppingCart, ContactIcon, ContactRound, ContactRoundIcon, LucideContact } from 'lucide-react';
+import { Star, Search, X,  ShoppingCart,  ContactRound, } from 'lucide-react';
 import Image from 'next/image';
 import Group  from "@/app/assests/Group.png" ;
 import zara from "@/app/assests/zara-logo-1 1.png";
@@ -22,6 +22,7 @@ import top from "@/app/assests/top.png";
 import FIND from "@/app/assests/FIND CLOTHES THAT MATCHES YOUR STYLE.png";
 import SHOP from "@/app/assests/SHOP.CO.png";
 import Hero from './hero';
+import DressStyle from './dressstyle';
 
 
 const HomePage = () => {
@@ -275,6 +276,8 @@ const HomePage = () => {
           </div>
         </div>
       </section> 
+
+      {/* <DressStyle/> */}
 
       <div className='line-through'>
   <Image src={line4} alt='' className=''/>
